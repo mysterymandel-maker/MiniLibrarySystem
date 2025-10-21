@@ -1,0 +1,23 @@
+Design Rationale for Mini Library Management System
+
+1. Purpose:
+   This system demonstrates the use of Python lists and dictionaries to simulate a small library.
+
+2. Architecture:
+   The project uses a modular design:
+   - operations.py (handles logic)
+   - demo.py (runs example actions)
+   - tests.py (verifies correctness)
+   - README.md (project overview)
+
+3. Data Flow:
+   The user interacts with demo.py → which calls operations.py → which updates data structures.
+
+4. Design Choice:
+   - Functions are used instead of classes to keep it simple for beginners.
+   - Lists store all books and members.
+   - Dictionaries hold individual book/member details.
+
+5. Future Improvement:
+   - Add file saving using JSON.
+   - Add book due dates and fines.
